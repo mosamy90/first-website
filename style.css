@@ -1,0 +1,137 @@
+* {
+    margin: 0;   
+    padding: 0;
+
+ }
+ header {
+    
+    width: 85%;
+    padding: 10px 15px;
+   
+     
+    position: fixed;
+    z-index: 999;
+    justify-content:space-between;
+    align-items: center;
+    display: flex;
+
+ }
+   body{
+    
+     background: url(background.jpg) no-repeat;
+     background-size: cover;
+   }
+
+ section{
+    padding: 100px 50px;
+  }
+  table{
+    border-collapse: collapse;
+  margin: 30px;
+ padding:0px  50px;
+ width: 60%;
+ height: 65vh;
+
+}
+  
+ h1{
+    color: white;
+   padding: 20px ;
+   font-size: 40px;
+   
+ }
+ .email{
+  width: 90%;
+   border: none;
+   outline: none;
+   background: transparent;
+   border-bottom: 2px solid white;
+ }
+ .password{
+  width: 90%;
+    border: none;
+   outline: none;
+   background: transparent;
+   border-bottom: 2px solid white;
+ }
+ label{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+ }
+ .signin{
+         width:350px;
+         height: 40px;
+         color: white;
+         font-size: 20px;
+         background-color: rgb(240, 56, 56);
+
+ }
+ .signin:hover{
+  background-color: rgb(236, 123, 123);
+  
+ }
+ a{
+  text-decoration: none;
+  padding: 20px;
+  color: white;
+  font-size: 20px;
+    
+ }
+ a:hover{
+  color: rgb(240, 198, 198);
+ }
+ 
+ nav{
+  margin: 15px 75px;
+ }
+ .search-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.search-box input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+}
+
+.search-box button[type="submit"] {
+  background:none;
+  border: none;
+  color: #333;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.fa-search {
+  font-size: 20px;
+}
+
+td.td{
+    
+   padding:20px;
+  background-color: #ffffff10;
+ backdrop-filter: blur(12px);
+ -webkit-backdrop-filter: blur(12px);
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  border: 1px solid #ccc;
+  border
+
+
+ 
